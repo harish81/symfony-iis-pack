@@ -1,0 +1,13 @@
+{
+    "name": "harish/symfony-iis-pack",
+    "description": "A package for IIS Support in symfony",
+    "type": "symfony-pack",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "harish",
+            "email": "nandoliyaharish@gmail.com"
+        }
+    ],
+    "require": {}
+}
