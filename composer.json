@@ -1,18 +1,21 @@
 {
-    "name": "harish81/symfony-iis-pack",
-    "description": "A package for IIS Support in symfony",
-    "type": "symfony-pack",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "harish",
-            "email": "nandoliyaharish@gmail.com"
-        }
-    ],
-    "require": {},
-    "extra": {
-        "copy-file": {
-            "vendor/harish81/symfony-iis-pack/public/web.config": "public/web.config"
-        }
+  "name": "harish81/symfony-iis-pack",
+  "description": "A package for IIS Support in symfony",
+  "type": "symfony-pack",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "harish",
+      "email": "nandoliyaharish@gmail.com"
     }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "harish81": "src/"
+    }
+  },
+  "post-install-cmd": [
+    "harish81\\ConfigCopy::copyConfig"
+  ]
 }
