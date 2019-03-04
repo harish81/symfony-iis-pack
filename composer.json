@@ -8,16 +8,5 @@
       "name": "harish",
       "email": "nandoliyaharish@gmail.com"
     }
-  ],
-  "require": {},
-  "autoload": {
-    "psr-4": {
-      "harish81\\": "src/"
-    }
-  },
-  "scripts": {
-    "post-install-cmd": [
-      "harish81\\ConfigCopy::copyConfig"
-    ]
-  }
+  ]
 }
