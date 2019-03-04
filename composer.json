@@ -1,5 +1,5 @@
 {
-    "name": "harish/symfony-iis-pack",
+    "name": "harish81/symfony-iis-pack",
     "description": "A package for IIS Support in symfony",
     "type": "symfony-pack",
     "license": "MIT",
