@@ -15,7 +15,9 @@
       "harish81\\": "src/"
     }
   },
-  "post-install-cmd": [
-    "harish81\\ConfigCopy::copyConfig"
-  ]
+  "scripts": {
+    "post-install-cmd": [
+      "harish81\\ConfigCopy::copyConfig"
+    ]
+  }
 }
