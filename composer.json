@@ -9,5 +9,10 @@
             "email": "nandoliyaharish@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "copy-file": {
+            "vendor/harish/symfony-iis-pack/public/web.config": "public/web.config"
+        }
+    }
 }
